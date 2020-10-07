@@ -6,7 +6,18 @@ main{
   color: #772020;
   background-color: #d78080;
 }
-aside{
+aside:nth-child(3){
   color:#f6d140;
   background-color: #b69100;
+}
+aside:nth-child(4){
+  color:#f640d0;
+  background-color: #b60090;
+}
+footer{
+color: #0000ff;
+background-color: #9090d9;
+}
+header, article h1, aside, footer{
+  font-size: 3em;
 }
