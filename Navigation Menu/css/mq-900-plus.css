@@ -1,0 +1,32 @@
+section {
+  display: flex;
+}
+nav{
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+
+nav, aside{
+  width: 20%;
+  height: 100%;
+}
+
+ul{
+  flex-flow:column;
+  width: 100%;
+}
+
+li{
+  height: 8vh;
+}
+a{
+  justify-content: center;
+  text-align:center;
+}
+
+article{
+  width: 60%;
+  height: 100%;
+}
