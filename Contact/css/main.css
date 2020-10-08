@@ -1,0 +1,30 @@
+body{
+  display:flex;
+  flex-wrap: wrap;
+}
+header, main, aside, footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header, aside, footer{
+  align-items: center;
+}
+article h1 {
+ text-align: center;
+}
+article p{
+  padding: 0 10px;
+}
+header{
+  height: 20vh;
+}
+main{
+  height: 35vh;
+}
+aside{
+  height: 20vh;
+}
+footer{
+  height: 5vh;
+}
